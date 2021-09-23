@@ -1,4 +1,4 @@
-purchase = Hash.new
+purchase = {}
   loop do
   puts "product name please or 'end' to stop"
   product = gets.chomp.to_s

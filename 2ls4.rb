@@ -1,4 +1,4 @@
-hash = Hash.new
+hash = {}
 
 i = 0
 ("a".."z").each do |letter|

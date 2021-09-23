@@ -1,5 +1,5 @@
-arr = Array.new
+arr = []
 
-10.step(100, 5){ |i| arr << i}
+(10..100).step(5) { |x| arr << x }
 
 puts "#{arr}"

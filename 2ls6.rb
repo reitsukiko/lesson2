@@ -1,10 +1,8 @@
 purchase = Hash.new
-  while 1 > 0
+  loop do
   puts "product name please or 'end' to stop"
   product = gets.chomp.to_s
-  if product == 'end'
-    break
-  end
+  break if product == 'end'
   puts "price"
   price = gets.chomp.to_i
   puts "quantity"
